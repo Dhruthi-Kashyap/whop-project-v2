@@ -39,6 +39,31 @@ export default function HeroSection() {
             <br />
 
             <StatsBar />
+            
+            <br />
+            <br />
+            <br />
+
+            <h2 className="text-center">
+                <span className="font-semibold text-5xl leading-[56px] tracking-[-1.2px]">
+                    Sell literally{" "}
+                </span>
+                <span className="font-semibold text-[46.5px] leading-[56px] tracking-[-1.2px] bg-gradient-to-b from-[#FF6243] to-[#EB4734] bg-clip-text text-transparent">
+                    anything
+                </span>
+            </h2>
+
+            {/* <p className="mt-6 max-w-md mx-auto text-center text-[17.44px] leading-[32px] text-[#B9BABF]">
+            Whop App Templates allows anyone to launch the business of their dreams.
+            </p> */}
+
+            <div className="mt-6 max-w-[488px] min-h-[64px] mx-auto">
+                <p className="text-center text-[17.44px] leading-[32px] text-[#B9BABF]">
+                    Whop App Templates allows anyone to launch the business      
+                          of their dreams.
+                </p>
+            </div>
+
 
         </section>
 
