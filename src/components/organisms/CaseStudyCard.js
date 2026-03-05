@@ -1,33 +1,49 @@
-export default function CaseStudyCard() {
+export default function CaseStudyCard({
+  title,
+  description,
+  date,
+  members,
+  image,
+  imageLeft = false,
+}) {
   return (
     <div className="w-full flex justify-center mt-24">
-      <div className="w-[1216px] h-[394px] flex justify-between items-center">
+      <div
+        className={`w-[1216px] h-[394px] flex items-center justify-between ${
+          imageLeft ? "flex-row" : "flex-row-reverse"
+        }`}
+      >
+        {/* IMAGE */}
+        <div className="w-[700px] h-[394px]">
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-full object-cover rounded-[12px]"
+          />
+        </div>
 
-        {/* LEFT CONTENT */}
-        <div className="w-[452px] h-[341px] flex flex-col">
+        {/* CONTENT */}
+        <div className="w-[452px] h-[373px] flex flex-col">
 
           {/* Title */}
-          <h2 className="text-[28px] font-semibold leading-[32px] tracking-[-0.42px] text-white">
-            GFNF
+          <h2 className="text-[27.34px] font-semibold leading-[32px] tracking-[-0.42px] text-white">
+            {title}
           </h2>
 
           {/* Description */}
-          <p className="mt-6 text-[17.3px] leading-[32px] text-[#D1D5DB]">
-            GFNF is a premium reselling community that offers exclusive alerts,
-            tools, and educational materials to help members make a profit
-            reselling.
+          <p className="mt-6 text-[17.44px] leading-[32px] text-[#D1D5DB]">
+            {description}
           </p>
 
           {/* Stats */}
           <div className="flex gap-16 mt-10">
-
             <div>
               <p className="text-[13.56px] font-semibold text-[#B9BABF]">
                 Date launched on Whop
               </p>
 
               <p className="text-[17.02px] text-white mt-2">
-                February 15, 2023
+                {date}
               </p>
             </div>
 
@@ -37,31 +53,20 @@ export default function CaseStudyCard() {
               </p>
 
               <p className="text-[18px] text-white mt-2">
-                2,000+
+                {members}
               </p>
             </div>
-
           </div>
 
-          {/* Read More */}
+          {/* Read more */}
           <a
             href="#"
-            className="mt-10 text-[13px] font-semibold text-[#FBFBFC]"
+            className="mt-10 text-[13px] font-semibold leading-[24px] text-[#FBFBFC]"
           >
             Read more
           </a>
 
         </div>
-
-        {/* RIGHT IMAGE */}
-        <div className="w-[700px] h-[394px]">
-          <img
-            src="/gfnf.png"
-            alt="GFNF"
-            className="w-full h-full object-cover rounded-[12px]"
-          />
-        </div>
-
       </div>
     </div>
   );
