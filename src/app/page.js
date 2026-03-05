@@ -4,6 +4,7 @@ import TemplateCard from "@/components/organisms/TemplateCard";
 import Footer from "@/components/organisms/Footer";
 import StartSellingCard from "@/components/organisms/StartSellingCard";
 import CaseStudyCard from "@/components/organisms/CaseStudyCard";
+import StockDadsCard from "@/components/organisms/StockDadsCard";
 
 export default function Home() {
   return (
@@ -15,8 +16,10 @@ export default function Home() {
       <TemplateCard />
       <br />
       <br />
-      <CaseStudyCard />
+      <StockDadsCard />
       <br />
+      <CaseStudyCard />
+      <br /> 
       <StartSellingCard />
       <br />
       <Footer />
