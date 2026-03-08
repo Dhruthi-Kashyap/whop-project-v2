@@ -4,6 +4,10 @@ import TemplateCard from "@/components/organisms/TemplateCard";
 import Footer from "@/components/organisms/Footer";
 import StartSellingCard from "@/components/organisms/StartSellingCard";
 import CaseStudyCard from "@/components/organisms/CaseStudyCard";
+import CustomersIntro from "@/components/organisms/CustomersIntro";
+import AccountManagement from "@/components/organisms/AccountManagement";
+import TeamAndSupport from "@/components/organisms/TeamAndSupport";
+import DeveloperSection from "@/components/organisms/DeveloperSection";
 // import StockDadsCard from "@/components/organisms/StockDadsCard";
 
 export default function Home() {
@@ -14,8 +18,12 @@ export default function Home() {
       <br />
       <br />
       <TemplateCard />
+      <DeveloperSection />
       <br />
       <br />
+      <TeamAndSupport />
+      <AccountManagement />
+      <CustomersIntro />
       <CaseStudyCard
         title="Beat the Books"
         description="Beat the Books is a premium sports betting community. Members get access to a thriving community and premium sports picks!"
