@@ -8,20 +8,17 @@ export default function StartSellingCard() {
         flex flex-col items-center justify-center text-center relative"
       >
 
-        {/* inset shadow */}
+     
         <div className="absolute inset-0 rounded-[16px] shadow-[inset_0px_1px_0px_0px_#FFFFFF33] pointer-events-none" />
 
-        {/* Title */}
         <h2 className="text-[46.13px] font-semibold leading-[56px] tracking-[-1.2px] text-white">
           Start selling on Whop
         </h2>
 
-        {/* Subtitle */}
         <p className="text-[17.3px] leading-[32px] text-white mt-3">
           All you need is an idea. We handle the rest.
         </p>
 
-        {/* Button */}
         <button
           className="mt-8 w-[145px] h-[36px] rounded-[6px] bg-white
           flex items-center justify-center

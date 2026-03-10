@@ -13,7 +13,7 @@ export default function CaseStudyCard({
           imageLeft ? "flex-row" : "flex-row-reverse"
         }`}
       >
-        {/* IMAGE */}
+        
         <div className="w-[700px] h-[394px]">
           <img
             src={image}
@@ -22,20 +22,19 @@ export default function CaseStudyCard({
           />
         </div>
 
-        {/* CONTENT */}
+        
         <div className="w-[452px] h-[373px] flex flex-col">
 
-          {/* Title */}
           <h2 className="text-[27.34px] font-semibold leading-[32px] tracking-[-0.42px] text-white">
             {title}
           </h2>
 
-          {/* Description */}
+         
           <p className="mt-6 text-[17.44px] leading-[32px] text-[#D1D5DB]">
             {description}
           </p>
 
-          {/* Stats */}
+       
           <div className="flex gap-16 mt-10">
             <div>
               <p className="text-[13.56px] font-semibold text-[#B9BABF]">
@@ -58,7 +57,7 @@ export default function CaseStudyCard({
             </div>
           </div>
 
-          {/* Read more */}
+          
           <a
             href="#"
             className="mt-10 text-[13px] font-semibold leading-[24px] text-[#FBFBFC]"

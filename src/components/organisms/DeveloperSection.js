@@ -1,12 +1,12 @@
 export default function DeveloperSection() {
   return (
-    <section className="w-full flex justify-center mt-40">
-      <div className="w-[1440px] flex flex-col gap-24">
+    <section className="w-full flex justify-center mt-40 bg-black">
+      
+      <div className="w-full max-w-[1280px] flex flex-col gap-24">
 
-        
-        <div className="flex justify-between items-start">
 
-          {/* LEFT CONTENT */}
+        <div className="flex justify-between items-center">
+
           <div className="w-[448px] flex flex-col">
 
             <span className="text-[#FF6243] text-[15.63px] font-semibold leading-[24px]">
@@ -18,7 +18,7 @@ export default function DeveloperSection() {
               with powerful and
             </h2>
 
-            <h2 className="text-[45.94px] font-semibold leading-[56px] tracking-[-1.2px] bg-gradient-to-b from-[#EC5940] to-[#FF280F] bg-clip-text text-transparent">
+            <h2 className="text-[46px] font-semibold leading-[56px] tracking-[-1.2px] bg-gradient-to-b from-[#EC5940] to-[#FF280F] bg-clip-text text-transparent">
               easy-to-use APIs
             </h2>
 
@@ -42,8 +42,8 @@ export default function DeveloperSection() {
             </button>
           </div>
 
-          
-          <div className="w-[640px] h-[424px]">
+     
+          <div className="w-[690px] h-[503px] flex items-center justify-center">
             <img
               src="/developer.png"
               alt="developer tools"
@@ -54,76 +54,49 @@ export default function DeveloperSection() {
         </div>
 
         
-        <div className="flex justify-between w-[1280px] mx-auto">
+        <div className="flex justify-between">
 
-          {/* CARD 1 */}
+         
           <div className="w-[384px] flex flex-col">
-
-            <img
-              src="/dev1.png"
-              alt="feature"
-              className="w-[72px] h-[72px]"
-            />
-
+            <img src="/dev1.png" alt="feature" className="w-[72px] h-[72px]" />
             <div className="mt-6">
               <h3 className="text-white text-[13.56px] font-semibold leading-[24px]">
                 Sell your own apps
               </h3>
-
               <p className="text-[#B9BABF] text-[13.45px] leading-[24px] mt-2">
                 On Whop, you’ll be able to build your own applications or
                 software that you can sell directly to your customers.
                 Launch SaaS apps in minutes.
               </p>
             </div>
-
           </div>
 
-          {/* CARD 2 */}
+        
           <div className="w-[384px] flex flex-col">
-
-            <img
-              src="/dev2.png"
-              alt="feature"
-              className="w-[72px] h-[72px]"
-            />
-
+            <img src="/dev2.png" alt="feature" className="w-[72px] h-[72px]" />
             <div className="mt-6">
               <h3 className="text-white text-[13.56px] font-semibold leading-[24px]">
                 Build apps for sellers
               </h3>
-
               <p className="text-[#B9BABF] text-[13.45px] leading-[24px] mt-2">
-               Don’t have an idea for your own app? Build/sell apps that
-                other sellers can take advantage of. Whether it be a dog-
-                walking app or a dispute-fighting app, build apps for
-                businesses!
+                Don’t have an idea for your own app? Build/sell apps that
+                other sellers can take advantage of.
               </p>
             </div>
-
           </div>
 
-          {/* CARD 3 */}
+       
           <div className="w-[384px] flex flex-col">
-
-            <img
-              src="/dev3.png"
-              alt="feature"
-              className="w-[72px] h-[72px]"
-            />
-
+            <img src="/dev3.png" alt="feature" className="w-[72px] h-[72px]" />
             <div className="mt-6">
               <h3 className="text-white text-[13.56px] font-semibold leading-[24px]">
                 Get hired as a freelance dev
               </h3>
-
               <p className="text-[#B9BABF] text-[13.45px] leading-[24px] mt-2">
                 Sellers on Whop are always looking for more development
-                talent to help them scale. You can get hired as a contractor
-                by sellers on Whop directly from the dashboard!
+                talent to help them scale.
               </p>
             </div>
-
           </div>
 
         </div>

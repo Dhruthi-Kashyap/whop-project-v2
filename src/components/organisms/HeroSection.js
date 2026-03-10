@@ -6,7 +6,6 @@ export default function HeroSection() {
     return (
         <section className="flex flex-col items-center text-center mt-24 px-6">
 
-            {/* Heading */}
             <h1 className="
             font-inter
             text-[62.88px]
@@ -18,13 +17,10 @@ export default function HeroSection() {
                 People like you make <br /> over $1M per year
             </h1>
 
-
-            {/* Paragraph */}
             <p className="font-inter font-normal text-[17.3px] leading-[32px] tracking-normal text-center text-[rgba(185,186,191,1)]">
                 Join the next generation of internet entrepreneurs building <br />their businesses on Whop's all-in-one platform.
             </p>
 
-            {/* Buttons */}
             <HeroButtons />
 
             <Image

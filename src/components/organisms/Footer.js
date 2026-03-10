@@ -7,10 +7,10 @@ export default function Footer() {
 
       <div className="flex justify-between items-start">
 
-        {/* LEFT SIDE */}
+        
         <div>
 
-          {/* Logo */}
+          
           <div className="flex items-center gap-2">
             <Logo />
             <span className="text-xl font-bold text-white">
@@ -18,12 +18,11 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Description */}
+       
           <p className="mt-4 max-w-[336px] text-[12.39px] leading-[24px] text-[#D1D5DB]">
             The #1 preferred way to build and distribute a modern-day internet business.
           </p>
 
-          {/* Social Icons */}
           <div className="mt-4 flex items-center gap-8">
             <a href="https://twitter.com">
               <img src="/twitter.png" alt="Twitter" className="w-4 h-4" />
@@ -35,10 +34,10 @@ export default function Footer() {
 
         </div>
 
-        {/* RIGHT SIDE */}
+        
         <div className="flex gap-24">
 
-          {/* Whop */}
+         
           <div className="flex flex-col gap-2">
             <Link href="/" className="text-sm font-semibold text-[#92939D] hover:text-white transition">
               Whop
@@ -54,7 +53,7 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Links */}
+          
           <div className="flex flex-col gap-2">
             <a href="#" className="text-sm font-semibold text-[#92939D] hover:text-white transition">
               Links
@@ -70,7 +69,6 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Resources */}
           <div className="flex flex-col gap-2">
             <a href="#" className="text-sm font-semibold text-[#92939D] hover:text-white transition">
               Resources
@@ -83,7 +81,6 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Developers */}
           <div className="flex flex-col gap-2">
             <a href="#" className="text-sm font-semibold text-[#92939D] hover:text-white transition">
               Developers
@@ -96,7 +93,6 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Company */}
           <div className="flex flex-col gap-2">
             <a href="#" className="text-sm font-semibold text-[#92939D] hover:text-white transition">
               Company

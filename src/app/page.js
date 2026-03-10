@@ -8,16 +8,27 @@ import CustomersIntro from "@/components/organisms/CustomersIntro";
 import AccountManagement from "@/components/organisms/AccountManagement";
 import TeamAndSupport from "@/components/organisms/TeamAndSupport";
 import DeveloperSection from "@/components/organisms/DeveloperSection";
+import ApiIntegrationCard from "@/components/organisms/ApiIntegrationCard";
+import MoneySection from "@/components/organisms/MoneySection";
+import DeveloperCardsSection from "@/components/organisms/DeveloperCardsSection";
+// import DeveloperServiceCard from "@/components/organisms/DeveloperServiceCard";
+// import MarketplaceShowcase from "@/components/organisms/MarketplaceShowcase";
 // import StockDadsCard from "@/components/organisms/StockDadsCard";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <Navbar />
+  <main className="min-h-screen bg-black text-white flex justify-center">
+  <div className="w-full max-w-[1200px]">
+    <Navbar />
       <HeroSection />
       <br />
       <br />
       <TemplateCard />
+      <DeveloperCardsSection />
+      {/* <ApiIntegrationCard /> */}
+      {/* <DeveloperServiceCard /> */}
+      {/* <MarketplaceShowcase/> */}
+      <MoneySection />
       <DeveloperSection />
       <br />
       <br />
@@ -53,6 +64,8 @@ export default function Home() {
       <br />
       <Footer />
       <br />
-    </main>
+  </div>
+</main>
+     
   );
 }
